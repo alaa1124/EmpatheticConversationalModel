@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head></head><body>
+<h1 class="code-line"><a rel="noopener"></a>Emapathetic Chatbot</h1>
+<blockquote>
+<p class="has-line-data"><strong>There are challenges in Natural Language Understanding regarding Arabic language, and this is due to the lack of appropriate datasets available for training. So, our goal for this project is to develop an empathetic Arabic conversational chatbot.</strong></p>
+</blockquote>
+<h2 class="code-line"><a rel="noopener"></a>Installation</h2>
+<blockquote>
+<p class="has-line-data">Note: use python 3.8 or later<br/>
+Install the dependencies if not available.</p>
+</blockquote>
+<pre><code class="language-sh">pip install langdetect
+</code></pre>
+<pre><code class="language-sh">pip install pyarabic
+</code></pre>
+<pre><code class="language-sh">pip install tashaphyne
+</code></pre>
+<pre><code class="language-sh">!pip install FarasaPy
+</code></pre>
+<pre><code class="language-sh">pip install arabic_reshaper
+</code></pre>
+<pre><code class="language-sh">pip install python-bidi
+</code></pre>
+<pre><code class="language-sh">!git <span class="hljs-built_in">clone</span> https://github.com/aub-mind/arabert.git
+</code></pre>
+<h2 class="code-line"><a rel="noopener"></a>Roadmap</h2>
+<ul>
+<li class="has-line-data"><strong>Data Preparation and Exploration</strong><br/>
+– Emotion Grouping<br/>
+– Handling Duplicates<br/>
+– Standardize text (tashkeel)<br/>
+– Normalize Arabic text to standard form<br/>
+– Remove non-Arabic characters, numbers, and extra spaces<br/>
+– Remove Arabic Stopwords<br/>
+– Distribution of Emotions Visualization<br/>
+– WordCloud Visualization</li>
+<li class="has-line-data"><strong>Feature Engineering</strong><br/>
+– Term Frequency Inverse Document Frequency of records (TFIDF)<br/>
+– Bag of Words (BoW)</li>
+<li class="has-line-data"><strong>Classification</strong><br/>
+– Naive Bayis<br/>
+– Support Vector Machine<br/>
+– Logistic Regression</li>
+<li class="has-line-data"><strong>Clustring</strong><br/>
+– K-means</li>
+<li class="has-line-data"><strong>Deployment</strong><br/>
+– Model Deployment on Dialog-Flow Conslole</li>
+<li class="has-line-data"><strong>Error Analysis</strong><br/>
+– Models Performance Measures</li>
+</ul>
+<h2 class="code-line"><a rel="noopener"></a>License</h2>
+<p class="has-line-data">Group 17- oUttawa University, Data Science Application Course Term Project</p>
+<script type="module" src="https://s.brightspace.com/lib/bsi/20.23.8-201/unbundled/mathjax.js"></script><script type="text/javascript">document.addEventListener('DOMContentLoaded', function() {
+					if (document.querySelector('math') || /\$\$|\\\(|\\\[|\\begin{|\\ref{|\\eqref{/.test(document.body.innerHTML)) {
+						document.querySelectorAll('mspace[linebreak="newline"]').forEach(elm => {
+							elm.setAttribute('style', 'display: block; height: 0.5rem;');
+						});
+
+						window.D2L.MathJax.loadMathJax({
+							'outputScale': 1.5,
+							'renderLatex': false
+						});
+					}
+				});</script><script type="module" src="https://s.brightspace.com/lib/bsi/20.23.8-201/unbundled/prism.js"></script><script type="text/javascript">document.addEventListener('DOMContentLoaded', function() {
+					document.querySelectorAll('.d2l-code').forEach(code => {
+						window.D2L.Prism.formatCodeElement(code);
+					});
+				});</script></body></html>
